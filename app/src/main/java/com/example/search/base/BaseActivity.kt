@@ -31,7 +31,7 @@ abstract class BaseActivity<T : ViewDataBinding, R : BaseViewModel> : AppCompatA
 
         progressDialog = ProgressDialog(this)
 
-        NetworkStateHelper(applicationContext, findViewById(android.R.id.content), this)
+//        NetworkStateHelper(applicationContext, findViewById(android.R.id.content), this)
 
         initStartView()
         initBeforeBinding()

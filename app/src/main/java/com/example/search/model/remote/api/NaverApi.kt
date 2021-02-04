@@ -1,4 +1,4 @@
-package com.project.monopad.network.remote.api
+package com.example.search.model.remote.api
 
 import com.example.search.model.vo.dto.NaverMovieResponse
 import io.reactivex.Single

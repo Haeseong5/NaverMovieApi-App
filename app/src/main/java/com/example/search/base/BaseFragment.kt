@@ -38,7 +38,7 @@ abstract class BaseFragment<T : ViewDataBinding, R : BaseViewModel> : Fragment()
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         d(TAG, "onViewCreated!!!")
-        NetworkStateHelper(requireContext(), view, this, duration = 2000)
+//        NetworkStateHelper(requireContext(), view, this, duration = 2000)
 
         initStartView()
         initBeforeBinding()

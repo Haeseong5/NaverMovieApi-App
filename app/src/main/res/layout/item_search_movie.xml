@@ -32,21 +32,21 @@
                 android:id="@+id/tv_title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@{movie.title}"/>
+                android:text="@{@string/movie_title_text(movie.title)}"/>
 
             <TextView
                 android:id="@+id/tv_recent_search_terms"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="4dp"
-                android:text="@{movie.pubDate}"/>
+                android:text="@{@string/movie_release_text(movie.pubDate)}"/>
 
             <TextView
                 android:id="@+id/tv_delete"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="4dp"
-                android:text="@{movie.userRating}"/>
+                android:text="@{@string/movie_rating_text(movie.userRating)}"/>
 
         </LinearLayout>
 

@@ -3,6 +3,7 @@ package com.example.search.ui.imagebind
 import android.widget.ImageView
 import androidx.databinding.BindingAdapter
 import com.bumptech.glide.Glide
+import com.example.search.R
 
 
 object BindingAdapter {
@@ -14,7 +15,7 @@ object BindingAdapter {
             .load(imageUrl)
             .fitCenter()
 //            .placeholder(R.drawable.loading)
-//            .error(R.drawable.ic_baseline_error_outline_24)
+            .error(R.drawable.ic_launcher_background)
             .into(view)
         
     }

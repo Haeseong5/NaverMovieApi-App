@@ -9,4 +9,9 @@
     <string name="recent_search_terms">최근 검색어</string>
     <string name="search_movie">search_movie</string>
 
+    <!--String format-->
+    <string name="movie_title_text">영화: %s</string>
+    <string name="movie_release_text">출시: %s</string>
+    <string name="movie_rating_text">평점: %s</string>
+
 </resources>

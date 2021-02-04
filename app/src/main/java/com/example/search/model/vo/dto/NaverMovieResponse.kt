@@ -29,7 +29,7 @@ data class NaverMovieResponse(
         @SerializedName("subtitle")
         val subtitle: String,
         @SerializedName("title")
-        val title: String,
+        var title: String,
         @SerializedName("userRating")
         val userRating: String
     )
